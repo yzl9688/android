@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f1f1"
+    android:paddingLeft="60dp"
+    android:paddingTop="20dp"
+    android:paddingRight="40dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:background="@drawable/layout_shape"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnVideo"
+            android:text="@string/weizhangshipin"
+            android:textSize="15sp"
+            android:background="@drawable/button_selected"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp" />
+
+        <Button
+            android:id="@+id/btnPicture"
+            android:text="@string/weizhangtupian"
+            android:textSize="15sp"
+            android:background="@drawable/button_unselected"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/fragmentContainer"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/serialNumber"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:background="@drawable/table_shape"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/carNumber"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:background="@drawable/table_shape"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/rechargeMoney"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_weight="3"
+        android:background="@drawable/table_shape"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/operator"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_weight="2"
+        android:background="@drawable/table_shape"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/rechargeTime"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_weight="5"
+        android:background="@drawable/table_shape"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        />
+
+</TableRow>

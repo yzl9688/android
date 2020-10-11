@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f1f1"
+    android:padding="10dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:paddingLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/bill_log"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:id="@+id/sortSpinner"
+            android:layout_weight="1"
+            android:entries="@array/bill_manage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnQuery"
+            android:text="@string/query"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+            <TextView
+                android:text="@string/serial_number"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/table_shape"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:text="@string/car_number1"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/table_shape"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:text="@string/recharge_money1"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_weight="3"
+                android:background="@drawable/table_shape"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:text="@string/operator"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_weight="2"
+                android:background="@drawable/table_shape"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:text="@string/recharge_time"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_weight="5"
+                android:background="@drawable/table_shape"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                />
+        </TableRow>
+
+        <ListView
+            android:id="@+id/listView"
+            android:divider="#fff"
+            android:dividerHeight="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </TableLayout>
+    
+    <TextView
+        android:id="@+id/noneHistory"
+        android:textSize="35sp"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

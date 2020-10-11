@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f1f1"
+    android:padding="20dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:text="@string/light_info_manage"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/sort"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:id="@+id/sortSpinner"
+            android:entries="@array/sort"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnQuery"
+            android:text="@string/query"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@drawable/table_shape"
+                android:text="@string/crossing"
+                />
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@drawable/table_shape"
+                android:text="@string/redDuration"
+                />
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:background="@drawable/table_shape"
+                android:text="@string/greenDuration"
+                />
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:background="@drawable/table_shape"
+                android:text="@string/yellowDuration"
+                />
+        </TableRow>
+
+        <ListView
+            android:id="@+id/listView"
+            android:dividerHeight="0dp"
+            android:divider="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ></ListView>
+
+    </TableLayout>
+
+</LinearLayout>

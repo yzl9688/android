@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="40dp"
+    android:background="#f1f1f1"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <TextView
+            android:text="@string/account_balance"
+            android:textSize="20dp"
+            android:layout_width="120dp"
+            android:gravity="left"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/accountBalance"
+            android:textSize="20dp"
+            android:text="55元"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/car_number"
+            android:textSize="20dp"
+            android:layout_width="120dp"
+            android:gravity="left"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:id="@+id/carSpinner"
+            android:entries="@array/car_number"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/recharge_money"
+            android:textSize="20dp"
+            android:layout_width="120dp"
+            android:gravity="left"
+            android:layout_height="wrap_content" />
+
+       <EditText
+           android:id="@+id/rechargeMoney"
+           android:text="100"
+           android:textSize="20dp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="元"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnQuery"
+            android:text="@string/query"
+            android:layout_marginRight="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnRecharge"
+            android:text="@string/recharge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>

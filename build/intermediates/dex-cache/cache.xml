@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/lin/.gradle/caches/modules-2/files-2.1/com.android.support/support-v4/19.1.0/85f201b380937e61a9dce6ca90ccf6872abbfb67/support-v4-19.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="/home/lin/android/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0_b9112f0d6d05c5dcde933447547d59a03bca2685.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lin/android/app/libs/org.jbundle.util.osgi.wrapped.org.apache.http.client-4.1.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="98c86e42679fe7ac066f6c242e0d14f0bce0bb7c">
+        <dex dex="/home/lin/android/app/build/intermediates/pre-dexed/debug/org.jbundle.util.osgi.wrapped.org.apache.http.client-4.1.2_7c152081f260e99b82d6435f05c8041fe32fa933.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lin/android/app/libs/volley.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4b5b6e706cc0d13483f5e2b76712d714ce8b7629">
+        <dex dex="/home/lin/android/app/build/intermediates/pre-dexed/debug/volley_0cf44ed7e2cb168346dc4788709a58e4f43e9261.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lin/android/app/libs/MPAndroidChart-v2.1.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="34b9f39e5343d39e205fb7617e734601dc4868e7">
+        <dex dex="/home/lin/android/app/build/intermediates/pre-dexed/debug/MPAndroidChart-v2.1.5_33135288f70008201d33813feafcfba48b9cfa01.jar" />
+    </item>
+
+</items>
